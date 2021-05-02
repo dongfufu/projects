@@ -1,0 +1,124 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dongfu/projects/ceres_learn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_f0028"
+[1/2] Building C object CMakeFiles/cmTC_f0028.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_f0028.dir/CheckSymbolExists.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_f0028.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+Assembler messages:
+Fatal error: can't create CMakeFiles/cmTC_f0028.dir/CheckSymbolExists.c.o: No such file or directory
+ninja: build stopped: subcommand failed.
+
+File /home/dongfu/projects/ceres_learn/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/dongfu/projects/ceres_learn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_b2cd3"
+[1/2] Building C object CMakeFiles/cmTC_b2cd3.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_b2cd3.dir/CheckSymbolExists.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_b2cd3.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+Assembler messages:
+致命错误： can't create CMakeFiles/cmTC_b2cd3.dir/CheckSymbolExists.c.o: 没有那个文件或目录
+ninja: build stopped: subcommand failed.
+
+File /home/dongfu/projects/ceres_learn/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dongfu/projects/ceres_learn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_ec8c2"
+[1/2] Building C object CMakeFiles/cmTC_ec8c2.dir/CheckFunctionExists.c.o
+FAILED: CMakeFiles/cmTC_ec8c2.dir/CheckFunctionExists.c.o 
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ec8c2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Assembler messages:
+Fatal error: can't create CMakeFiles/cmTC_ec8c2.dir/CheckFunctionExists.c.o: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/dongfu/projects/ceres_learn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_bd041"
+[1/2] Building C object CMakeFiles/cmTC_bd041.dir/CheckFunctionExists.c.o
+FAILED: CMakeFiles/cmTC_bd041.dir/CheckFunctionExists.c.o 
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_bd041.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Assembler messages:
+致命错误： can't create CMakeFiles/cmTC_bd041.dir/CheckFunctionExists.c.o: 没有那个文件或目录
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: /home/dongfu/projects/ceres_learn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_27167"
+[1/2] Building C object CMakeFiles/cmTC_27167.dir/CheckFunctionExists.c.o
+FAILED: CMakeFiles/cmTC_27167.dir/CheckFunctionExists.c.o 
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_27167.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Assembler messages:
+Fatal error: can't create CMakeFiles/cmTC_27167.dir/CheckFunctionExists.c.o: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: /home/dongfu/projects/ceres_learn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_5c254"
+[1/2] Building C object CMakeFiles/cmTC_5c254.dir/CheckFunctionExists.c.o
+FAILED: CMakeFiles/cmTC_5c254.dir/CheckFunctionExists.c.o 
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_5c254.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Assembler messages:
+致命错误： can't create CMakeFiles/cmTC_5c254.dir/CheckFunctionExists.c.o: 没有那个文件或目录
+ninja: build stopped: subcommand failed.
+
+
+Determining if compiler accepts -pthread failed with the following output:
+Change Dir: /home/dongfu/projects/ceres_learn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_f9f87"
+[1/2] Building C object CMakeFiles/cmTC_f9f87.dir/CheckForPthreads.c.o
+FAILED: CMakeFiles/cmTC_f9f87.dir/CheckForPthreads.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_f9f87.dir/CheckForPthreads.c.o   -c /usr/share/cmake-3.10/Modules/CheckForPthreads.c
+Assembler messages:
+Fatal error: can't create CMakeFiles/cmTC_f9f87.dir/CheckForPthreads.c.o: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Determining if compiler accepts -pthread failed with the following output:
+Change Dir: /home/dongfu/projects/ceres_learn/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_663d1"
+[1/2] Building C object CMakeFiles/cmTC_663d1.dir/CheckForPthreads.c.o
+FAILED: CMakeFiles/cmTC_663d1.dir/CheckForPthreads.c.o 
+/usr/bin/cc    -o CMakeFiles/cmTC_663d1.dir/CheckForPthreads.c.o   -c /usr/share/cmake-3.10/Modules/CheckForPthreads.c
+Assembler messages:
+致命错误： can't create CMakeFiles/cmTC_663d1.dir/CheckForPthreads.c.o: 没有那个文件或目录
+ninja: build stopped: subcommand failed.
+
+

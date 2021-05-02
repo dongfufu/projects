@@ -1,0 +1,8 @@
+# ninja log v5
+0	33	1619590431	build.ninja	118141b8815f746f
+0	140	1619590431	CMakeFiles/test_camera.dir/main.cpp.o	487dc9d021b07569
+140	244	1619590431	test_camera	9f6b9bc341bbc9b1
+1	909	1619590538	CMakeFiles/test_camera.dir/main.cpp.o	487dc9d021b07569
+910	1260	1619590538	test_camera	9f6b9bc341bbc9b1
+1	888	1619847617	CMakeFiles/test_camera.dir/main.cpp.o	487dc9d021b07569
+888	1161	1619847617	test_camera	9f6b9bc341bbc9b1

@@ -1,0 +1,7 @@
+/home/dongfu/projects/test_camera/build/CMakeFiles/install/strip.dir
+/home/dongfu/projects/test_camera/build/CMakeFiles/edit_cache.dir
+/home/dongfu/projects/test_camera/build/CMakeFiles/test_camera.dir
+/home/dongfu/projects/test_camera/build/CMakeFiles/rebuild_cache.dir
+/home/dongfu/projects/test_camera/build/CMakeFiles/list_install_components.dir
+/home/dongfu/projects/test_camera/build/CMakeFiles/install/local.dir
+/home/dongfu/projects/test_camera/build/CMakeFiles/install.dir

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.6)
+project(test_camera)
+FIND_PACKAGE(OpenCV REQUIRED)
+INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIRS})
+add_executable(test_camera main.cpp)
+TARGET_LINK_LIBRARIES(test_camera ${OpenCV_LIBS})
+install(TARGETS test_camera RUNTIME DESTINATION bin)

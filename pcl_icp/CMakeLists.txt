@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.6)
+project(pcl_icp)
+find_package(PCL  REQUIRED)
+include_directories(${PCL_INCLUDE_DIRS})
+link_directories(${PCL_LIBRARY_DIRS})
+add_executable(pcl_icp main.cpp)
+target_link_libraries (pcl_icp  ${PCL_LIBRARIES})
+#install(TARGETS pcl_icp RUNTIME DESTINATION bin)

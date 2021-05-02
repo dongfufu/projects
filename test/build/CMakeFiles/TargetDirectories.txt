@@ -1,0 +1,7 @@
+/home/dongfu/projects/test/build/CMakeFiles/install/strip.dir
+/home/dongfu/projects/test/build/CMakeFiles/edit_cache.dir
+/home/dongfu/projects/test/build/CMakeFiles/list_install_components.dir
+/home/dongfu/projects/test/build/CMakeFiles/test.dir
+/home/dongfu/projects/test/build/CMakeFiles/install/local.dir
+/home/dongfu/projects/test/build/CMakeFiles/rebuild_cache.dir
+/home/dongfu/projects/test/build/CMakeFiles/install.dir
